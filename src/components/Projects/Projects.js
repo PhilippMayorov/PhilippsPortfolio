@@ -22,14 +22,12 @@ function Projects() {
             <ProjectCard
               imgPath={SpotifyProject}
               isBlog={false}
-              title="Free Spotify Premium"
-              description="Are you a student frustrated with the high cost of Spotify Premium? Say hello to the Free Spotify Downloader!
-              I was tired of shelling out $15.99 for music that's freely available on YouTube, 
-              so I built this application to save you money and hassle. With Free Spotify Downloader, 
-              you can effortlessly download your favorite songs and playlists from Spotify at no cost.
-              Using Spotify's API, the app fetches your playlists, converts the songs into high-quality 
-              MP3 files, and downloads them directly to your computer. Enjoy your favorite music and podcasts 
-              offline and completely ad-free!"
+              title="Spotify free-ads"
+              description="Tired of interruptions while listening to your favorite study playlists? 
+              Meet the Spotify's ads-free Playlist designed to enhance the listening experience for students.
+              This app utilizes Spotify's API to help you organize and manage your music. It fetches your playlists and 
+              downloads an MP3 version from youtube onto your computer. Now you can enjoying your music without distractions
+              during study sessions or on the go!"
               ghLink="https://github.com/PhilippMayorov/FreeSpotifyDownloader"
               // demoLink="https://chatify-49.web.app/"
             />
