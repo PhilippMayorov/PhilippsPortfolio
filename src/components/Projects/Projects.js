@@ -62,6 +62,7 @@ function Projects() {
               Camphaven is also cyber safe through Cyber-security prevention such as MongoDB injection, 
               and cross-site scripting (XSS) using Astronaut package"
               ghLink="https://github.com/PhilippMayorov/Camp-Haven"
+              demoLink="https://camphaven.onrender.com/"
             />
           </Col>
         </Row>
