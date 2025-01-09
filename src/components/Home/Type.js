@@ -9,11 +9,13 @@ function Type() {
         strings: [
           'Full-Stack Software Engineer',
           'Computer Science Student at Western University',
-          'Boxer and International Judo Athlete', // not sure if to include this.
+          'Boxer and International Judo Athlete',
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 20,
+        delay: 40,
+        typeSpeed: 500,
       }}
     />
   )

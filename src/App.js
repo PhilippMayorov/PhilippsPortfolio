@@ -5,6 +5,9 @@ import Home from './components/Home/Home'
 import About from './components/About/About'
 import Projects from './components/Projects/Projects'
 import Footer from './components/Footer'
+import Particle from 'components/Particle'
+import CertificationBlock from './components/About/Certification'
+
 import {
   BrowserRouter as Router,
   Route,
@@ -32,14 +35,20 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? 'no-scroll' : 'scroll'}>
         <Navbar />
+        <Particle />
+
         <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          {/* <Route path="/resume" element={<Resume />} /> */}
-          <Route path="*" element={<Navigate to="/" />} />
-        </Routes>
+        <div id="home">
+          <Home />
+        </div>
+        <div id="projects">
+          <Projects />
+        </div>
+        <div id="about">
+          <About />
+        </div>
+
+        {/* <CertificationBlock /> */}
         <Footer />
       </div>
     </Router>

@@ -276,7 +276,7 @@ button:focus {
 }
 
 .heading-name {
-  font-size: 2.5em !important;
+  font-size: 3.5em !important;
   padding-left: 45px !important;
 }
 
@@ -446,7 +446,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 30px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
@@ -471,6 +471,54 @@ button:focus {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+/* Add this to your CSS file */
+.skills-filter {
+  display: flex;
+  flex-wrap: wrap; /* Allows buttons to wrap to the next line if they exceed the container width */
+  margin-bottom: 20px; /* Space below the skills filter */
+}
+
+.skills-filter button {
+  margin: 5px; /* Space between buttons */
+  padding: 10px 15px; /* Add padding for a card-like appearance */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #6c757d; /* Default background color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.skills-filter button:hover {
+  background-color: #5a6268; /* Darker background on hover */
+}
+
+.skills-filter button:focus {
+  outline: none; /* Remove focus outline */
+}
+.skill-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #e0e0e0; /* Default background */
+  color: #333; /* Default text color */
+}
+
+.skill-badge.highlight {
+  background-color: #007bff; /* Highlight color */
+  color: white; /* Highlight text color */
+}
+
+/* Add this to your CSS file */
+.project-heading {
+  text-align: left; /* Ensure the heading is left-aligned */
+}
+
+.skills-filter {
+  text-align: left; /* Ensure the skills filter is left-aligned */
+  margin-bottom: 20px; /* Add some space below the skills filter */
 }
 
 .blog-card {
@@ -533,7 +581,7 @@ button:focus {
 }
 .project-heading {
   color: white !important;
-  font-size: 2.3em !important;
+  font-size: 3.5em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
 }
@@ -544,7 +592,7 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 30px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;

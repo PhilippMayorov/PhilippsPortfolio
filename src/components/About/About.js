@@ -13,7 +13,7 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: 'center', padding: '10px' }}>
+        {/* <Row style={{ justifyContent: 'center', padding: '10px' }}>
           <Col
             md={7}
             style={{
@@ -34,25 +34,27 @@ function About() {
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
-        </Row>
+        </Row> */}
 
-        <h1 className="project-heading">
+        <h1 className="project-heading" style={{ textAlign: 'left' }}>
           Certifications <strong className="purple">Completed </strong>
         </h1>
-        <p>Here are my certifications </p>
+        {/* <p style={{ color: 'white', textAlign: 'left' }}>
+          Here are my certifications{' '}
+        </p> */}
 
         <CertificationBlock />
 
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
-        </h1>
+        </h1> */}
 
-        <Techstack />
+        {/* <Techstack />
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
-        <Toolstack />
+        <Toolstack /> */}
 
         {/* <Github /> */}
       </Container>
