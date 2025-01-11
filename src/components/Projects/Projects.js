@@ -36,6 +36,7 @@ const developerTools = [
   'Git Version Control',
   'Postman',
   'Excel',
+  'Docker',
 ]
 
 const projectsData = [
@@ -61,6 +62,7 @@ const projectsData = [
       'Stripe API',
       'AWS S3',
       'BootStrap',
+      'Docker',
     ],
   },
   {
